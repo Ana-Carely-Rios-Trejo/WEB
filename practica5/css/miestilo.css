@@ -1,0 +1,58 @@
+.tarjeta{
+    width: 480px;
+    margin-top: 50px;
+}
+        .tarjeta .cabecera{
+            display: flex;
+            padding: 24px;
+            border: rgb(199, 199, 199) solid;
+            
+            border-radius: 10% 10% 0% 0%;
+        }
+        .tarjeta .cabecera img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            padding-right: 5px;
+
+        }
+        .tarjeta .cabecera samp{
+            flex: 1;
+            text-align: center;
+            padding-top: 40px;
+            font-size: 24px;
+        }
+        .tarjeta .cuerpo{
+            text-align: justify;
+            font-size: 24px;
+            padding: 24px;
+            border: rgb(199, 199, 199)solid;
+        }
+        .tarjeta .pie{
+            border: rgb(199, 199, 199) solid;
+            border-radius: 0% 0% 10% 10%;
+        }
+        .tarjeta .pie button{
+            width: 100%;
+            padding-top: 10%;
+            font-size: 24px;
+            background-color: cadetblue rgb(197, 197, 232);
+            color: rgb(16, 22, 27);
+            margin-top: 30%;
+            padding-right: 10px;
+            margin-right: 10px;
+        }
+        .contenedor{
+            display: flex;
+        }
+        .colorfondovioleta{
+            background-color: rgb(208, 151, 185);
+            color: rgb(5, 15, 24);
+        }
+        .colorfondoazulclaro{
+            background-color: rgb(189, 216, 224);
+            color: black;
+        }
+        .alinearcentro{
+            justify-content: center;
+        }
